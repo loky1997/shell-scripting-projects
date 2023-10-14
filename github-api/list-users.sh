@@ -1,8 +1,5 @@
 #!/bin/bash
-helper()
-{
-	echo "hi lokesh"
-}
+
 # GitHub API URL
 API_URL="https://api.github.com"
 
@@ -38,8 +35,6 @@ function list_users_with_read_access {
         echo "$collaborators"
     fi
 }
-
-helper
 
 # Main script
 
